@@ -1,0 +1,84 @@
+{
+  "comment": "",
+  "ignore": "test",
+  "package": [{
+      "checksumSHA1": "Iyr8d/LgFGaPuIjKjkAoGmLwb7o=",
+      "path": "github.com/adamzy/cedar-go",
+      "revision": "d348c21f72432c2b6d5f05f68759fde94f64b227",
+      "revisionTime": "2015-11-03T15:22:50Z"
+    },
+    {
+      "checksumSHA1": "0x6tKraaJRo//YVEB2FotP2Mhww=",
+      "path": "github.com/go-kit/kit/endpoint",
+      "revision": "8a2988aa81f699fc1e647c3c9dddce0113ef1bfb",
+      "revisionTime": "2017-04-24T08:55:41Z"
+    },
+    {
+      "checksumSHA1": "bzCBeQrZ+LxbYyJbp7uDILX6t7c=",
+      "path": "github.com/go-kit/kit/log",
+      "revision": "8a2988aa81f699fc1e647c3c9dddce0113ef1bfb",
+      "revisionTime": "2017-04-24T08:55:41Z"
+    },
+    {
+      "checksumSHA1": "/AkI9UMpVkgsMblaJIukZb0Wf5Q=",
+      "path": "github.com/go-kit/kit/transport/http",
+      "revision": "8a2988aa81f699fc1e647c3c9dddce0113ef1bfb",
+      "revisionTime": "2017-04-24T08:55:41Z"
+    },
+    {
+      "checksumSHA1": "KxX/Drph+byPXBFIXaCZaCOAnrU=",
+      "path": "github.com/go-logfmt/logfmt",
+      "revision": "390ab7935ee28ec6b286364bba9b4dd6410cb3d5",
+      "revisionTime": "2016-11-15T14:25:13Z"
+    },
+    {
+      "checksumSHA1": "2sj/DbXoXdnPAfjAEyhS0Jj5QL0=",
+      "path": "github.com/go-stack/stack",
+      "revision": "100eb0c0a9c5b306ca2fb4f165df21d80ada4b82",
+      "revisionTime": "2016-05-14T03:44:11Z"
+    },
+    {
+      "checksumSHA1": "g/V4qrXjUGG9B+e3hB+4NAYJ5Gs=",
+      "path": "github.com/gorilla/context",
+      "revision": "08b5f424b9271eedf6f9f0ce86cb9396ed337a42",
+      "revisionTime": "2016-08-17T18:46:32Z"
+    },
+    {
+      "checksumSHA1": "zmCk+lgIeiOf0Ng9aFP9aFy8ksE=",
+      "path": "github.com/gorilla/mux",
+      "revision": "4c1c3952b7d9d0a061a3fa7b36fd373ba0398ebc",
+      "revisionTime": "2017-04-27T04:12:50Z"
+    },
+    {
+      "checksumSHA1": "abKzFXAn0KDr5U+JON1ZgJ2lUtU=",
+      "path": "github.com/kr/logfmt",
+      "revision": "b84e30acd515aadc4b783ad4ff83aff3299bdfe0",
+      "revisionTime": "2014-02-26T03:06:59Z"
+    },
+    {
+      "checksumSHA1": "UOQ1nSRZ3f+CmrGuMuBItADE/44=",
+      "path": "github.com/natefinch/lumberjack",
+      "revision": "6d54cbc97d7e419cb85c9a5d2123d24f9610817d",
+      "revisionTime": "2015-04-11T23:30:54Z"
+    },
+    {
+      "checksumSHA1": "+JTZaON99GnhAFyUo3gBna1KTdE=",
+      "path": "github.com/goofansu/sego",
+      "revision": "f745e77e8552061195065630edfd20e45f6b8fd8",
+      "revisionTime": "2017-04-28T15:41:41Z"
+    },
+    {
+      "checksumSHA1": "Y+HGqEkYM15ir+J93MEaHdyFy0c=",
+      "path": "golang.org/x/net/context",
+      "revision": "da118f7b8e5954f39d0d2130ab35d4bf0e3cb344",
+      "revisionTime": "2017-04-23T14:02:46Z"
+    },
+    {
+      "checksumSHA1": "WHc3uByvGaMcnSoI21fhzYgbOgg=",
+      "path": "golang.org/x/net/context/ctxhttp",
+      "revision": "da118f7b8e5954f39d0d2130ab35d4bf0e3cb344",
+      "revisionTime": "2017-04-23T14:02:46Z"
+    }
+  ],
+  "rootPath": "github.com/goofansu/wego"
+}

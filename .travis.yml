@@ -1,0 +1,22 @@
+language: go
+matrix:
+  include:
+    - os: linux
+      go: 1.7
+    - os: osx
+      go: 1.7
+before_deploy:
+  - make release
+  - tar czf wego-${TRAVIS_OS_NAME}-${TRAVIS_TAG}.tar.gz wego
+deploy:
+  provider: releases
+  api_key:
+    secure: kjUVMEhCuODdvsAywFGM9EOW+9a8+zD371I6rcEq6ja2TxwugGjM+7yenXoP8fKgoePO78OoJBC5eRkt3sMMezFOfuitjUpLqWzH0t8Yb+ehjn8jBUdFO6DoBzTW+WRMo2uW2ilJ0pdWppo38ZpI1YKj6UWn3F74l8mMkDbrlw4=
+  file: wego-${TRAVIS_OS_NAME}-${TRAVIS_TAG}.tar.gz
+  on:
+    tags: true
+  skip_cleanup: true
+  overwrite: true
+notifications:
+  slack:
+    secure: LkYa3LZFjPHgrBuLq8fzYog2/v5JwwJNekBjBjJjbBPmY/VP2oiykrZjM40yyrTxIstDXzaVZtqnhzn0SGXq0FFeV30h9OviLTjVhxwsZkXBl11ge/eCWSRPjKy33N8nVyDnHQBwNooW2ePR9UVDJ1c3mRAFo1PnU6sAAQtVJpI=
