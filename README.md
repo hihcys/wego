@@ -7,7 +7,7 @@
 
 ### 用法
 
-1. 从 https://github.com/goofansu/wego/releases 下载对应自己系统的版本，目前仅编译了linux和macOS版本
+1. 从 [Releases](https://github.com/goofansu/wego/releases) 下载对应自己系统的版本，目前仅编译了linux和macOS版本
 2. `tar zxf wego-osx-1.0.0.tar.gz`
 3. `./wego` (默认8000端口，可以使用`./wego -port 1234`修改监听端口)
 
