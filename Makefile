@@ -1,4 +1,4 @@
 dist:
-	./goreleaser --skip-publish
+	./goreleaser --skip-publish --rm-dist
 
 .PHONY: dist
